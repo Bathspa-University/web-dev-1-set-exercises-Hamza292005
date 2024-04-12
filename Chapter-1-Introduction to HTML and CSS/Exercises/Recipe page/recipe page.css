@@ -1,0 +1,54 @@
+/* styling the page by changing font colour, style and positioning the elements */
+h1 {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  color: brown;
+  font-size: 50px;
+}
+img {
+  border: 150px;
+  border-radius: 150px;
+  border-color: darkmagenta;
+  margin-left: 500px;
+  margin-right: auto;
+}
+p {
+  text-align: center;
+  font-size: 30px;
+  font-family: cursive;
+  font-style: italic;
+}
+h2 {
+  color: orangered;
+  font-size: 30px;
+  background-color: palevioletred;
+  text-align: center;
+}
+ul {
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  color: chocolate;
+  background-color: darkorchid;
+}
+ol {
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  color: chocolate;
+  background-color: darkorchid;
+}
+h3 {
+  font-size: 25px;
+  background-color: maroon;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  color: darkorchid;
+}
+
+.fine {
+  font-size: 15px;
+  text-align: center;
+  color: darkred;
+  margin-left: 500px;
+  margin-right: 500px;
+}
