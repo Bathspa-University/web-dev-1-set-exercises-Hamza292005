@@ -1,0 +1,18 @@
+/*giving borders according to given image*/
+.A {
+  border-color: blueviolet;
+  box-shadow: 10px 10px 10px red;
+}
+.B {
+  border-color: lime;
+  box-shadow: inset 10px 10px 10px black;
+}
+.C {
+  border-color: orange;
+  border-radius: 12px;
+  box-shadow: 0 0 0 10px blue, 0 0 0 20px red, 0 0 0 30px green;
+}
+.D {
+  border-color: brown;
+  text-shadow: 5px 5px black;
+}
