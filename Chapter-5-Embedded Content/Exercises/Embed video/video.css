@@ -1,0 +1,16 @@
+/*aligning the video*/ 
+body {
+      background-color: greenyellow;
+      color: darkgreen;
+      font-size: 50px;
+      font-weight: bold;
+      text-align: center;
+      }
+
+ video {
+    width: 500px;
+ object-fit: cover;
+ height: 400px;
+ position: absolute;
+ left:500px;
+ top: 200px;}       
