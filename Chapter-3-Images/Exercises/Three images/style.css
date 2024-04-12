@@ -1,0 +1,47 @@
+body {
+  background-color: black;
+  background-image: url(shot-by-cerqueira-0o_GEzyargo-unsplash.jpg);
+  color: antiquewhite;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+.images {
+  display: flex;
+  text-align: center;
+  padding-right: 25px;
+}
+header {
+  font-size: 40px;
+  text-align: center;
+}
+.jupiter {
+  float: right;
+  height: 300px;
+}
+img {
+  max-height: 400px;
+  max-width: 500px;
+}
+.saturn {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  color: mediumblue;
+}
+.modify {
+  display: flex;
+  text-align: center;
+  padding-right: 25px;
+}
+.neptunemod {
+  filter: grayscale(100%);
+}
+.jupitermod {
+  filter: blur(10px);
+}
+.saturnmod {
+  filter: opacity(50%);
+}
