@@ -1,0 +1,178 @@
+@font-face {
+  font-family: hylian;
+  src: url(HyliaSerifBeta-Regular.otf);
+}
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  height: 0px;
+  overflow-x: hidden;
+}
+.first {
+  background-image: url("kingdom.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 0px;
+  margin-top: 0px;
+  font-family: hylian;
+  width: 100%;
+  height: 1000px;
+}
+.navbar ul {
+  background-color: transparent;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+.navbar a:hover {
+  background-color: rgb(41, 174, 101);
+}
+.navbar li {
+  float: left;
+}
+#home {
+  font-size: 35px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(41, 174, 101);
+  font-family: hylian;
+}
+.home {
+  background-color: black;
+  margin-top: -300px;
+  letter-spacing: 0mm;
+}
+.two {
+  background-image: url("totk.jpg");
+  background-repeat: no-repeat;
+  height: 800px;
+  margin-top: -65px;
+}
+.details {
+  font-size: 40px;
+  margin-top: 100px;
+  margin-left: 15px;
+  text-align: center;
+  margin-right: 15px;
+}
+#plot {
+  text-shadow: 14px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 75px;
+  padding-top: 30px;
+}
+.three {
+  background-image: url(bkg.jpg);
+  margin-top: -65px;
+  color: antiquewhite;
+  height: 2500px;
+}
+#char {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 75px;
+}
+.Link {
+  font-size: 30px;
+  text-align: left;
+  margin-left: 15px;
+  margin-right: 15px;
+  position: absolute;
+  width: 95%;
+}
+.img {
+  float: right;
+  margin-top: -90px;
+}
+.zelda {
+  padding-top: 400px;
+  width: 90%;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: left;
+  position: absolute;
+  font-size: 30px;
+}
+.zimg {
+  height: 450px;
+  float: right;
+  padding-right: 20px;
+  margin-top: -150px;
+}
+.yuno {
+  padding-top: 800px;
+  width: 90%;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 30px;
+  text-align: left;
+  position: absolute;
+}
+
+.yimg {
+  float: right;
+  height: 350px;
+}
+
+.tulin {
+  padding-top: 1300px;
+  font-size: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: left;
+  position: absolute;
+  width: 90%;
+}
+.timg {
+  float: right;
+  height: 300px;
+}
+.sidon {
+  padding-top: 1800px;
+  font-size: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: left;
+  position: absolute;
+  width: 90%;
+}
+.simg {
+  height: 400px;
+  float: right;
+  margin-top: -150px;
+}
+.four {
+  background-image: url(bkg.jpg);
+  height: 350px;
+  margin: -75px;
+}
+#reviews {
+  text-align: center;
+  font-size: 75px;
+  color: antiquewhite;
+}
+.rev {
+  display: flex;
+  font-size: 50px;
+  color: rgb(41, 174, 101);
+  justify-content: space-around;
+  align-items: center;
+}
+.web {
+  font-size: 15px;
+  color: antiquewhite;
+  text-align: center;
+  display: block;
+  padding-top: 100px;
+}
