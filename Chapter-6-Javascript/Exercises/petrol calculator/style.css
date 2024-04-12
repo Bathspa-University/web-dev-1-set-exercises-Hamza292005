@@ -1,0 +1,39 @@
+/*styling the page for visual appeal*/
+body {
+  background-color: rgb(43, 43, 208);
+  text-align: center;
+  background-image: url(gascan.png);
+  background-repeat: no-repeat;
+  background-position: 50px 150px;
+}
+/*increasing the font size for header*/
+header {
+  font-size: 50px;
+  font-weight: bold;
+}
+/*positioning the elements to the center of the page*/
+.main {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  text-align: justify;
+  font-size: 25px;
+}
+#calc {
+  position: absolute;
+  top: 48%;
+  left: 35%;
+}
+button {
+  font-size: 30px;
+  background-color: crimson;
+  color: blue;
+}
+.result {
+  position: absolute;
+  top: 55%;
+  left: 36%;
+}
+h2 {
+  font-size: 50px;
+}
