@@ -1,0 +1,100 @@
+/*styling according to given image*/
+body {
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #17072b;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+nav ul a:hover {
+  background-color: #8c15e9;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.welcome {
+  padding: 0px;
+  margin-left: 10px;
+  width: 50%;
+}
+
+.line-up {
+  background-color: #172d67;
+  color: #ffffff;
+  padding: 15px;
+  width: 50ch;
+  height: 50ch;
+}
+.line-up ul {
+  list-style-type: "-";
+  font-size: 1.5rem;
+}
+
+.line-up ul li {
+  padding-left: 20px;
+}
+
+.images {
+  display: flex;
+  align-items: flex-end;
+  gap: 2rem;
+  width: 48%;
+}
+
+.code {
+  width: 700px;
+}
+footer {
+  background-color: #8c15e9;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+}
+
+h1,
+h2 {
+  font-family: "Tahoma", sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-decoration: underline;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+.rightside {
+  position: relative;
+  padding: 40px;
+}
+p {
+  font-size: 20px;
+}
+h2 {
+  padding-left: 50px;
+  padding-bottom: 30px;
+}
